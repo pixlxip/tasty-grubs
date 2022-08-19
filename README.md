@@ -2,7 +2,7 @@
 A collection of GRUB2 themes.
 
 ## Installation (Themes)
-Clone this repository, then open up `/etc/default/grub` and set the `GRUB_THEME=` line to `GRUB_THEME=/path/to/theme/directory/you/want/theme.txt` for example `GRUB_THEME=/boot/grub/themes/amogus/theme.txt` The path must be to the `theme.txt` not the directory.
+Clone this repository, then open up `/etc/default/grub` and set the `GRUB_THEME=` line to `GRUB_THEME=/path/to/theme/directory/you/want/theme.txt` for example `GRUB_THEME=/boot/grub/themes/amogus/theme.txt` The path must be to the `theme.txt`, not the directory.
 I would recommend moving the themes you want from this repository into `/boot/grub/themes`
 
 After this make sure to run `update-grub` and you're good to go! 
